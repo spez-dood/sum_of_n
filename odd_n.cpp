@@ -1,6 +1,4 @@
 #include <iostream>
-#include <thread>
-#include <chrono>
 
 const char* stSqr = "\u00B2";
 const char* dbsp = "\n\n";
