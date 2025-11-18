@@ -1,6 +1,6 @@
 #include <iostream>
 
-const char* stSqr = "\u00B2";
+const char* stSqr = "\u00B2"; // unicode for ^2
 const char* dbsp = "\n\n";
 const char* spacer1 = "===========================";
 
