@@ -21,7 +21,7 @@ struct odd_n {
     odd_n(int end_n = 9) {
         if (end_n <= 0) { return; } // n must be positive.
 
-        for (int n = 0; n < end_n; ++n) {
+        for (int n = 0; n <= end_n; ++n) {
             if ( (n == 0) || (n%2 == 0) ) { continue; }
             print_sum(n);
             sum += n;
